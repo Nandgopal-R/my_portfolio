@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="/slick-portfolio-svelte/favicon.ico" />
+		<meta name="viewport" content="width=device-width" />
+		
+		<link rel="modulepreload" href="/slick-portfolio-svelte/_app/immutable/entry/start.2b4ecb91.js">
+		<link rel="modulepreload" href="/slick-portfolio-svelte/_app/immutable/chunks/index.f1690066.js">
+		<link rel="modulepreload" href="/slick-portfolio-svelte/_app/immutable/chunks/singletons.8574f8b4.js">
+		<link rel="modulepreload" href="/slick-portfolio-svelte/_app/immutable/chunks/paths.e6c6a24d.js">
+		<link rel="modulepreload" href="/slick-portfolio-svelte/_app/immutable/entry/app.1952adb9.js">
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents">
+			<script>
+				{
+					__sveltekit_1lpamba = {
+						assets: "/slick-portfolio-svelte",
+						base: "/slick-portfolio-svelte",
+						env: {}
+					};
+
+					const element = document.currentScript.parentElement;
+
+					Promise.all([
+						import("/slick-portfolio-svelte/_app/immutable/entry/start.2b4ecb91.js"),
+						import("/slick-portfolio-svelte/_app/immutable/entry/app.1952adb9.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element);
+					});
+				}
+			</script>
+		</div>
+	</body>
+</html>
