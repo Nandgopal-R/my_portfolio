@@ -3,39 +3,27 @@ import { getSkills } from './skills';
 
 export const title = 'Home';
 
-export const name = 'Name';
+export const name = 'Nandgopal';
 
-export const lastName = 'LastName';
+export const lastName = 'R Nair';
 
 export const description =
-	'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, rerum. Debitis accusantium deleniti enim iste dignissimos? Similique, exercitationem! Odit vero, numquam quae ratione maxime sunt reiciendis laudantium quaerat iure ipsum!';
+  "I'm a Backend Developer with a knack for crafting efficient and performant APIs. Currently my journey involves deep diving into DevOps and  developing scalable, maintainable software systems.";
 
 export const links: Array<{ platform: Platform; link: string }> = [
-	{ platform: Platform.GitHub, link: 'https://github.com/' },
-	{
-		platform: Platform.Linkedin,
-		link: 'https://www.linkedin.com/'
-	},
-	{
-		platform: Platform.Twitter,
-		link: 'https://twitter.com/'
-	},
-	{
-		platform: Platform.StackOverflow,
-		link: 'https://stackoverflow.com/'
-	},
-	{
-		platform: Platform.Email,
-		link: 'riadh_adrani@hotmail.fr'
-	},
-	{
-		platform: Platform.Youtube,
-		link: 'https://www.youtube.com'
-	},
-	{
-		platform: Platform.Facebook,
-		link: 'https://www.facebook.com'
-	}
+  { platform: Platform.GitHub, link: 'https://github.com/Nandgopal-R' },
+  {
+    platform: Platform.Linkedin,
+    link: 'https://www.linkedin.com/in/nandgopal-nair2005/'
+  },
+  {
+    platform: Platform.Twitter,
+    link: 'https://x.com/nandu24_here'
+  },
+  {
+    platform: Platform.Email,
+    link: 'nandgopalrnair@gmail.com'
+  },
 ];
 
-export const skills = getSkills('js', 'css', 'html', 'reactjs', 'sass', 'svelte', 'ts');
+export const skills = getSkills('js', 'css', 'html', 'ts', 'expressjs', 'postgresql', 'golang', 'python', 'c', 'cpp', 'docker', 'prsima', 'honojs', 'drizzle',);
